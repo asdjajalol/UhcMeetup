@@ -3,6 +3,7 @@ version: 1.0
 main: net.gonzq.uhcmeetup.Main
 author: ! Gonzq#4451
 api-version: 1.17
+website: 
 softdepend: [PlaceholderAPI]
 
 commands:

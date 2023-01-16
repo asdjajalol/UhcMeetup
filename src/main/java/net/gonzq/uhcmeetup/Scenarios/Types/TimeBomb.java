@@ -102,8 +102,7 @@ public class TimeBomb extends Scenario implements Listener {
                 }
             }
 
-            p.dropItem(false);
-            p.getInventory().clear();
+            e.getDrops().clear();
 
             final ArmorStand stand = p.getWorld().spawn(leftChest.getLocation().clone().add(0, 1, 0.5), ArmorStand.class);
 
