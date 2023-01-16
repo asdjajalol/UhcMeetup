@@ -1,0 +1,16 @@
+name: UhcMeetup
+version: 1.0
+main: net.gonzq.uhcmeetup.Main
+author: ! Gonzq#4451
+api-version: 1.17
+softdepend: [PlaceholderAPI]
+
+commands:
+  uhcmeetup:
+  kt:
+  scenarios:
+    aliases: [scen]
+  topstats:
+  stats:
+  vote:
+  forcestart:

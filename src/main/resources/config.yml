@@ -1,0 +1,49 @@
+lobby:
+  name: "lobby"
+meetup-world: "meetup"
+
+give-lobby-items: true
+vote-system:
+  # Enables the voting system for scenarios.
+  scenario-system: true
+  # Adds the scenarios that can be voted on by name (exactly as they appear in /scenario).
+  scenarios-to-vote:
+    - "AbsortionLess"
+    - "BloodHunter"
+    - "BowLess"
+    - "CobwebLess"
+    - "FastGetaway"
+    - "GappleRoulette"
+    - "GraveRobbers"
+    - "KillEffect"
+    - "TimeBomb"
+    - "WebCage"
+    - "HeavyPockets"
+
+# Scenarios that will be enabled every time the server starts.
+default-scenarios-enabled:
+  - "NoClean"
+  - "GoldenRetriever"
+seed-list:
+  - 11071079617937
+  - -632446011456927
+  - 144845014575172
+  - -271973583926241
+  - 828786898008397
+  - 912216414204313
+  - 149829148888427
+  - 706625171064917
+  - 471484538450128
+
+worldborder-size: 400
+worldborder-time: 160
+players-to-start: 5
+countdown-time: 60
+# Restart the server at the end of the Meetup
+finish-restart: true
+restart-countdown: 20
+shield-break-sound: true
+scenarios-gui:
+  scenarios-name: "&b%name%"
+noclean-time: 30
+
