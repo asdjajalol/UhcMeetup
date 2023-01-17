@@ -56,7 +56,7 @@ public final class Main extends JavaPlugin {
 
         FastInvManager.register(this);
 
-        new UpdateChecker(this, 107342).getVersion(version -> {
+        new UpdateChecker(this, 107429).getVersion(version -> {
             if (!getDescription().getVersion().equals(version)) {
                 getLogger().warning("There is a new version of UHC Meetup available!");
                 getLogger().warning("Your Version: 1.0");

@@ -7,13 +7,13 @@ scoreboard:
     - ""
     - "&7Scenarios: &b%meetup_scenarios%"
     - ""
-    - "&7play.negromc.net"
+    - "&7yourip.net"
   starting:
     - "&7Players: &b%meetup_online%"
     - ""
     - "&7Start in: &b%meetup_countdown%"
     - ""
-    - "&7play.negromc.net"
+    - "&7yourip.net"
   started:
     - "&7Time Elapsed: &b%meetup_timeelapsed%"
     - "&7Border: &b%meetup_border%"
@@ -23,9 +23,9 @@ scoreboard:
     - ""
     - "&7Spectators: &b%meetup_spectators%"
     - ""
-    - "&7play.negromc.net"
+    - "&7yourip.net"
   finalized:
     - "&7Time Elapsed: &b%meetup_timeelapsed%"
     - "&7Winner: &b%meetup_winner%"
     - ""
-    - "&7player.negromc.net"
+    - "&7yourip.net"
