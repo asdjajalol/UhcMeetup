@@ -22,6 +22,9 @@
 ```/stats <player>```
 - Open the Stats GUI
 
+```/topstats```
+- Open the TopStats GUI
+
 ```/uhcmeetup setlobby```
 - Sets the spawn
 
