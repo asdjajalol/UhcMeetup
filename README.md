@@ -1,10 +1,10 @@
 ## UhcMeetup
-[Download](https://spigotmc.org/resources/285252)
+[Download](https://www.spigotmc.org/resources/uhc-meetup-1-17.107429/)
 
 # Information
 - Author: Gonzq
 - Discord: ! Gonzq#4451
-- Minecraft Version: 1.17-1.17.1
+- Minecraft Version: 1.17 & 1.17.1
 - Plugin Version: 1.0
 - [Proyect](https://github.com/users/asdjajalol/projects/2)
 
@@ -21,6 +21,9 @@
 
 ```/stats <player>```
 - Open the Stats GUI
+
+```/topstats```
+- Open the TopStats GUI
 
 ```/uhcmeetup setlobby```
 - Sets the spawn
