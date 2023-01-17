@@ -91,7 +91,6 @@ public class Utils {
 
         // Listeners
         new ConsumeEvent();
-        new HorseEvent();
         new DeathEvent();
         new FightsEvent();
         new HubEvents();

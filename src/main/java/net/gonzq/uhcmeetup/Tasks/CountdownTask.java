@@ -4,9 +4,12 @@ import net.gonzq.uhcmeetup.Enums.GameState;
 import net.gonzq.uhcmeetup.Main;
 import net.gonzq.uhcmeetup.Managers.GameManager;
 import net.gonzq.uhcmeetup.Managers.ScatterManager;
+import net.gonzq.uhcmeetup.Managers.ScenarioManager;
 import net.gonzq.uhcmeetup.players.GamePlayer;
 import net.gonzq.uhcmeetup.Utils.Utils;
 import org.bukkit.Bukkit;
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitRunnable;
 
 public class CountdownTask extends BukkitRunnable {
@@ -67,6 +70,8 @@ public class CountdownTask extends BukkitRunnable {
         if (g.getCountdown() == 0) {
             Main.playerManager.getPlayerList().stream().filter(GamePlayer::isOnline).forEach(ScatterManager.getInstance()::postScatter);
             if (vote) GameManager.getInstance().getVoteScenarios().endVotes();
+            if (ScenarioManager.getInstance().getScenario("HeavyPockets").isEnabled())
+                Main.playerManager.getPlayerList().stream().filter(GamePlayer::isOnline).forEach(p -> p.getPlayer().getInventory().addItem(new ItemStack(Material.SMITHING_TABLE)));
             g.setState(GameState.STARTED);
             new BorderTask().runTaskTimer(pl,0,20);
             cancel();

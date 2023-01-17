@@ -255,7 +255,7 @@ public class GamePlayer {
             inv.addItem(new ItemStack(Material.LAPIS_LAZULI,64));
             inv.addItem(new ItemStack(Material.CRAFTING_TABLE));
             inv.addItem(new ItemStack(Material.ENCHANTING_TABLE));
-            inv.addItem(new ItemStack(Material.EXPERIENCE_BOTTLE,c.getInt("xpbottles")));
+            inv.addItem(new ItemStack(Material.EXPERIENCE_BOTTLE,c.getInt("kits.xpbottles")));
             if (c.getInt("kits.books") > 0) inv.addItem(new ItemStack(Material.BOOK, c.getInt("kits.books")));
             if (ScenarioManager.getInstance().getScenario("HeavyPockets").isEnabled()) inv.addItem(new ItemStack(Material.SMITHING_TABLE));
         }

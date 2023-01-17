@@ -22,7 +22,9 @@ public class PlayerFiles {
 
     public static List<FileConfiguration> getConfigs() {
         List<FileConfiguration> l = new ArrayList<>();
-        Main.playerManager.getPlayerList().forEach(p -> l.add(p.getFile().c()));
+        for (File file : new File(Main.pl.getDataFolder().getAbsolutePath() + File.separator + "players").listFiles()) {
+            l.add(YamlConfiguration.loadConfiguration(file));
+        }
         return l;
     }
 

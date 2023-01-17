@@ -1,5 +1,5 @@
 prefix: "&9&lMeetup&8» &f"
-border-prefix: "&bBorder»&9"
+border-prefix: "&bBorder»&9 "
 
 win-solo: "&9%player% &fhas woon the game with &b%kills% &fkills!"
 vote-scen: "You voted the Scenario: &9%scenario%"

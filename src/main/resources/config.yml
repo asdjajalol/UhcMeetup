@@ -2,7 +2,6 @@ lobby:
   name: "lobby"
 meetup-world: "meetup"
 
-give-lobby-items: true
 vote-system:
   # Enables the voting system for scenarios.
   scenario-system: true
