@@ -1,5 +1,5 @@
 ## UhcMeetup
-[Download](https://spigotmc.org/resources/285252)
+[Download](https://www.spigotmc.org/resources/uhc-meetup-1-17.107429/)
 
 # Information
 - Author: Gonzq
