@@ -30,5 +30,12 @@ Plugin Version: 1.0
 
 ```/forcestart```
 - Starts a Meetup
+# Permissions
+- meetup.admin
+- meetup.vote
+- meetup.forcestart
 
-[![](https://img.shields.io/spiget/downloads/102577)](https://www.spigotmc.org/resources/bounties-1-8-1-19.106551/)
+# Bug Report
+[here](https://github.com/asdjajalol/UhcMeetup/issues)
+# Support
+[If you like support me :innocent:](https://paypal.me/gonzq1)
