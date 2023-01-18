@@ -15,7 +15,7 @@
 * Stats system
 * Random Kits
 
-# Commnands
+# Commands
 ```/vote```
 - Open the Vote GUI
 
